@@ -1,0 +1,47 @@
+/* src/components/MovieCard.css */
+.movie-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card-img {
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .movie-card-body {
+    padding: 15px;
+  }
+  
+  .movie-card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .movie-card-text {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  

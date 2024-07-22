@@ -1,0 +1,25 @@
+/* src/components/MovieList.css */
+.movie-list-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .movie-card {
+      margin: 10px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .movie-card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
